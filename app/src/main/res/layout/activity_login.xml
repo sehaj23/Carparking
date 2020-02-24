@@ -47,7 +47,7 @@
         android:textColorHint="#707070" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/forgot"
         android:layout_width="349dp"
         android:layout_height="wrap_content"
         android:text="Forgot Password ?"
