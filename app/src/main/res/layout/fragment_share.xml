@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/text_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:text="About us"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/splash"/>
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The comparison of parking capacity is very small compared to the rapidly growing population of vehicles and the need for larger parking lots. This causes problems in finding a parking space. In India , the parking system management are ineffective because the parking is still done manually. The process of finding parking spots can take time and dispose of fuel can be one of the problems that cause more pollution, especially in urban areas . In addition, the emotional level of motorists in search of parking spaces is increasing. Parking is turning out to be an expensive resource in almost any major city in the world, and its limited availability is a concurrent cause of urban traffic congestion, and air pollution. aims at overcoming current public parking management solutions and creates convenient management of public parking in urban areas, which could improve sustainable urban mobility. sPark as an application will allow users to instantly get a parking slot in an easy way. Follow simple instruction to get your slot booked. You get a guaranteed place upon your arrival , the application with further navigate you to parking slot. The parking system help you get assigned to your slot and reserves an optimal parking space for a driver based on the user's requirements that combine proximity to destination and parking cost, while we will also be ensuring that the overall parking capacity is efficiently utilized. sPark will help the drivers to find parking in a shorter time. Aim of our application sPark is to Find parking in seconds , whenever and wherever you need it with easy option at your fingertip via our application sPark. To minimise the effects of on street parking upon road safety and congestion. To ensure that in areas with existing Traffic Regulation Order , the consolidation orders include footways and verge. To reduce, where possible , environmental damage caused by cars and increase the usage of available space for car parking.
+"
+            android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+</ScrollView>
